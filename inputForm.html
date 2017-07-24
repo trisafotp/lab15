@@ -1,21 +1,39 @@
   <form ng-submit='transferInputs(userInputs)'>
-    <input type="text" ng-model='userInputs.character' placeholder='Your favorite book/movie character'>
-    <input type="text" ng-model='userInputs.occasion' placeholder='Momentous/significant occasion'>
-    <input type="text" ng-model='userInputs.insect' placeholder='Flying insect'>
-    <input type="text" ng-model='userInputs.energy' placeholder='Something that gives you energy'>
-    <input type="text" ng-model='userInputs.body' placeholder='Body part'>
-    <input type="text" ng-model='userInputs.viscousLiquid' placeholder='A gooey/sticky liquid'>
-    <input type="text" ng-model='userInputs.shinyObject' placeholder='A shiny object'>
-    <input type="text" ng-model='userInputs.lightSource' placeholder='Something that emits light'>
-    <input type="text" ng-model='userInputs.herdAnimal' placeholder='A hooved animal'>
-    <input type="text" ng-model='userInputs.building' placeholder='A type of building'>
-    <input type="text" ng-model='userInputs.wet' placeholder='Something wet'>
-    <input type="text" ng-model='userInputs.warm' placeholder='Something warm'>
-    <input type="text" ng-model='userInputs.fragrant' placeholder='Something that smells good'>
-    <input type="text" ng-model='userInputs.stinky' placeholder='Something that smells badly'>
-    <input type="text" ng-model='userInputs.strongAnimal' placeholder='A very strong animal'>
-    <input type="text" ng-model='userInputs.squishy' placeholder='Something squishy'>
-    <input type="text" ng-model='userInputs.star' placeholder='An attractive actor/actress'>
-    <input type="text" ng-model='userInputs.favMovie' placeholder='Your favorite movie'>
-    <button type="submit" name="button">Submit</button>
+    <label for="character"> The name of your favorite book/movie character:</label>
+    <input type="text" id="character" ng-model='userInputs.character' placeholder='Your favorite book/movie character'>
+    <label for ="occasion">A momentous occasion or event:</label>
+    <input type="text" id="occasion" ng-model='userInputs.occasion' placeholder='Momentous/significant occasion'>
+    <label for="insect">A flying insect:</label>
+    <input type="text" id="insect" ng-model='userInputs.insect' placeholder='Flying insect'>
+    <label for="energy">Something that gives you energy:</label>
+    <input type="text" id="energy" ng-model='userInputs.energy' placeholder='Something that gives you energy'>
+    <label for="body">Name a part of the body:</label>
+    <input type="text" id="body" ng-model='userInputs.body' placeholder='Body part'>
+    <label for="liquid">Name a gooey, sticky liquid:</label>
+    <input type="text" id="liquid" ng-model='userInputs.viscousLiquid' placeholder='A gooey/sticky liquid'>
+    <label for="shiny">Name a shiny object:</label>
+    <input type="text" id="shiny" ng-model='userInputs.shinyObject' placeholder='A shiny object'>
+    <label for="light">Name something that emits light:</label>
+    <input type="text" id="light" ng-model='userInputs.lightSource' placeholder='Something that emits light'>
+    <label for="hanimal">Name a hooved animal:</label>
+    <input type="text" id="hanimal" ng-model='userInputs.herdAnimal' placeholder='A hooved animal'>
+    <label for="building">Name a type of building:</label>
+    <input type="text" id="building" ng-model='userInputs.building' placeholder='A type of building'>
+    <label for="wet">Name something wet:</label>
+    <input type="text" id="wet" ng-model='userInputs.wet' placeholder='Something wet'>
+    <label for="warm">Name of something warm:</label>
+    <input type="text" id="warm" ng-model='userInputs.warm' placeholder='Something warm'>
+    <label for="fragrant">Name of something fragrant:</label>
+    <input type="text" id="fragrant" ng-model='userInputs.fragrant' placeholder='Something that smells good'>
+    <label for="stinky">Name of something that smells foul:</label>
+    <input type="text" id="stinky" ng-model='userInputs.stinky' placeholder='Something that smells badly'>
+    <label for="sanimal">Name of a strong animal:</label>
+    <input type="text" id="sanimal" ng-model='userInputs.strongAnimal' placeholder='A very strong animal'>
+    <label for="squishy">Name of something squishy:</label>
+    <input type="text" id="squishy" ng-model='userInputs.squishy' placeholder='Something squishy'>
+    <label for="star">Name of an attractive actor or actress:</label>
+    <input type="text" id="star" ng-model='userInputs.star' placeholder='An attractive actor/actress'>
+    <label for="movie">Name of your favorite movie:</label>
+    <input type="text" id="movie" ng-model='userInputs.favMovie' placeholder='Your favorite movie'>
+    <button type="submit" name="submit">Submit</button>
   </form>
