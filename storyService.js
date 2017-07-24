@@ -1,6 +1,5 @@
 var app = angular.module('madLib');
   app.factory('storyService', function(){
-
     return {
       insertInputs: insertInputs,
       storeInputs: storeInputs
