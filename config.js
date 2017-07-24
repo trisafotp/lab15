@@ -5,11 +5,11 @@ app.config(function($routeProvider){
   .when('/inputForm', {
     controller: 'inputController',
     templateUrl: 'inputForm.html'
-  });
+  })
   .when('/story', {
     controller: 'insertController',
     templateUrl: 'story.html'
-  });
+  })
   .otherwise({
     redirectTo: '/form'
   });
